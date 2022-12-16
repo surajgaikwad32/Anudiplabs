@@ -1,0 +1,193 @@
+Name -:suraj gaikwad
+Assignment no -:9
+Que Number -:1
+
+
+mysql> create database student5;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use student5;
+Database changed
+mysql> create table parents(p_id int primary key,p_name varchar(20),city varchar(20),age int,AnnualIncome int,vaccupation varchar(20),E_mailId varchar(20));
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> insert into parents values(101,"Madhavi Deshmane","Satara",55,650000,"Manager","madhavi003@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(102,"Neha Kshirsagar","pune",40,554000,"Construction","neha002@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(103,"Kajal Kshirsagar","Delhi",45,652000,"Desinger","kajal003@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(104,"Pooja Kshirsagar","pune",50,752000,"Teacher","pooja004@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(105,"Rutuja Kshirsagar","Mumbai",46,402000,"Agent","rutuja005@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(106,"Disha Kshirsagar","Banglore",53,495000,"Company","Disha006@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(107,"Somnath Kshirsagar","Banglore",62,695000,"BuisnessMan","somnath007@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(108,"Megha Kshirsagar","Chennai",56,795000,"Farmer","megha008@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(109,"Parvti Kshirsagar","surat",41,395000,"Farmer","parvti@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(110,"Raghunath Kshirsagar","satara",50,505000,"HR","raghunath@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(111,"Harish Desai","jaipur",45,605000,"Soft Engineer","harish@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(112,"Prajwal ovhal","Delhi",39,575000,"Soft Engineer","prajwal@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(113,"Kaushik Padwal","Pune",49,475800,"Agent","Kaushik@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(114,"Rupesh Sutar","Banglore",42,495800,"Accountant","rupesh@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(115,"Suraj Gaikawad","Ahemdabad",38,695800,"Doctor","suraj@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(116,"Mahesh Kate","Indor",58,795600,"Civil Engineer","mahesh@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(117,"Saurbh Jagtap","Mumbai",44,495600,"Chef","saurbh@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(118,"Simaran Vishwakarma","Patna",44,475600,"Worker","simran@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(119,"Daya Newale","Kokan",41,575600,"HR","daya@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into parents values(120,"Pooja Rajput","Kokan",41,575600,"Police","pooja@gmail.com");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from parents;
++------+----------------------+-----------+------+--------------+----------------+----------------------+
+| p_id | p_name               | city      | age  | AnnualIncome | vaccupation    | E_mailId             |
++------+----------------------+-----------+------+--------------+----------------+----------------------+
+|  101 | Madhavi Deshmane     | Satara    |   55 |       650000 | Manager        | madhavi003@gmail.com |
+|  102 | Neha Kshirsagar      | pune      |   40 |       554000 | Construction   | neha002@gmail.com    |
+|  103 | Kajal Kshirsagar     | Delhi     |   45 |       652000 | Desinger       | kajal003@gmail.com   |
+|  104 | Pooja Kshirsagar     | pune      |   50 |       752000 | Teacher        | pooja004@gmail.com   |
+|  105 | Rutuja Kshirsagar    | Mumbai    |   46 |       402000 | Agent          | rutuja005@gmail.com  |
+|  106 | Disha Kshirsagar     | Banglore  |   53 |       495000 | Company        | Disha006@gmail.com   |
+|  107 | Somnath Kshirsagar   | Banglore  |   62 |       695000 | BuisnessMan    | somnath007@gmail.com |
+|  108 | Megha Kshirsagar     | Chennai   |   56 |       795000 | Farmer         | megha008@gmail.com   |
+|  109 | Parvti Kshirsagar    | surat     |   41 |       395000 | Farmer         | parvti@gmail.com     |
+|  110 | Raghunath Kshirsagar | satara    |   50 |       505000 | HR             | raghunath@gmail.com  |
+|  111 | Harish Desai         | jaipur    |   45 |       605000 | Soft Engineer  | harish@gmail.com     |
+|  112 | Prajwal ovhal        | Delhi     |   39 |       575000 | Soft Engineer  | prajwal@gmail.com    |
+|  113 | Kaushik Padwal       | Pune      |   49 |       475800 | Agent          | Kaushik@gmail.com    |
+|  114 | Rupesh Sutar         | Banglore  |   42 |       495800 | Accountant     | rupesh@gmail.com     |
+|  115 | Suraj Gaikawad       | Ahemdabad |   38 |       695800 | Doctor         | suraj@gmail.com      |
+|  116 | Mahesh Kate          | Indor     |   58 |       795600 | Civil Engineer | mahesh@gmail.com     |
+|  117 | Saurbh Jagtap        | Mumbai    |   44 |       495600 | Chef           | saurbh@gmail.com     |
+|  118 | Simaran Vishwakarma  | Patna     |   44 |       475600 | Worker         | simran@gmail.com     |
+|  119 | Daya Newale          | Kokan     |   41 |       575600 | HR             | daya@gmail.com       |
+|  120 | Pooja Rajput         | Kokan     |   41 |       575600 | Police         | pooja@gmail.com      |
++------+----------------------+-----------+------+--------------+----------------+----------------------+
+20 rows in set (0.00 sec)
+
+
+1.Count Number Of Parents Whose Annual Income Is More Than 6 Lakh.?
+Ans-:
+
+
+mysql> select count(AnnualIncome)from parents where annualIncome>600000;
++---------------------+
+| count(AnnualIncome) |
++---------------------+
+|                   8 |
++---------------------+
+1 row in set (0.01 sec)
+
+
+2.Select Parent Whose Annual Income Is Iess Than 5 Lakh Otherwise Age Is More Than 45.?
+Ans-:
+
+
+mysql> select count(AnnualIncome)from parents where annualIncome>600000;
++------+----------------------+----------+------+--------------+----------------+----------------------+
+| p_id | p_name               | city     | age  | AnnualIncome | vaccupation    | E_mailId             |
++------+----------------------+----------+------+--------------+----------------+----------------------+
+|  101 | Madhavi Deshmane     | Satara   |   55 |       650000 | Manager        | madhavi003@gmail.com |
+|  104 | Pooja Kshirsagar     | pune     |   50 |       752000 | Teacher        | pooja004@gmail.com   |
+|  105 | Rutuja Kshirsagar    | Mumbai   |   46 |       402000 | Agent          | rutuja005@gmail.com  |
+|  106 | Disha Kshirsagar     | Banglore |   53 |       495000 | Company        | Disha006@gmail.com   |
+|  107 | Somnath Kshirsagar   | Banglore |   62 |       695000 | BuisnessMan    | somnath007@gmail.com |
+|  108 | Megha Kshirsagar     | Chennai  |   56 |       795000 | Farmer         | megha008@gmail.com   |
+|  109 | Parvti Kshirsagar    | surat    |   41 |       395000 | Farmer         | parvti@gmail.com     |
+|  110 | Raghunath Kshirsagar | satara   |   50 |       505000 | HR             | raghunath@gmail.com  |
+|  113 | Kaushik Padwal       | Pune     |   49 |       475800 | Agent          | Kaushik@gmail.com    |
+|  114 | Rupesh Sutar         | Banglore |   42 |       495800 | Accountant     | rupesh@gmail.com     |
+|  116 | Mahesh Kate          | Indor    |   58 |       795600 | Civil Engineer | mahesh@gmail.com     |
+|  117 | Saurbh Jagtap        | Mumbai   |   44 |       495600 | Chef           | saurbh@gmail.com     |
+|  118 | Simaran Vishwakarma  | Patna    |   44 |       475600 | Worker         | simran@gmail.com     |
++------+----------------------+----------+------+--------------+----------------+----------------------+
+13 rows in set (0.00 sec)
+
+
+3.Select Parent Who Are Living In City Ahmedabad,Delhi,Mumbai,Chennai,Banglore.?
+Ans-:
+
+
+mysql> select * from parents where city in('Ahmedabad','Delhi','Mumbai','Chennai','Banglore');
++------+--------------------+----------+------+--------------+---------------+----------------------+
+| p_id | p_name             | city     | age  | AnnualIncome | vaccupation   | E_mailId             |
++------+--------------------+----------+------+--------------+---------------+----------------------+
+|  103 | Kajal Kshirsagar   | Delhi    |   45 |       652000 | Desinger      | kajal003@gmail.com   |
+|  105 | Rutuja Kshirsagar  | Mumbai   |   46 |       402000 | Agent         | rutuja005@gmail.com  |
+|  106 | Disha Kshirsagar   | Banglore |   53 |       495000 | Company       | Disha006@gmail.com   |
+|  107 | Somnath Kshirsagar | Banglore |   62 |       695000 | BuisnessMan   | somnath007@gmail.com |
+|  108 | Megha Kshirsagar   | Chennai  |   56 |       795000 | Farmer        | megha008@gmail.com   |
+|  112 | Prajwal ovhal      | Delhi    |   39 |       575000 | Soft Engineer | prajwal@gmail.com    |
+|  114 | Rupesh Sutar       | Banglore |   42 |       495800 | Accountant    | rupesh@gmail.com     |
+|  117 | Saurbh Jagtap      | Mumbai   |   44 |       495600 | Chef          | saurbh@gmail.com     |
++------+--------------------+----------+------+--------------+---------------+----------------------+
+8 rows in set (0.00 sec)
+
+
+4.Update Email Id Of Each Prents As "NA".?
+Ans-:
+
+
+mysql> update parents set e_mailId="NA";
+Query OK, 20 rows affected (0.01 sec)
+Rows matched: 20  Changed: 20  Warnings: 0
+
+mysql> select * from parents;
++------+----------------------+-----------+------+--------------+----------------+----------+
+| p_id | p_name               | city      | age  | AnnualIncome | vaccupation    | E_mailId |
++------+----------------------+-----------+------+--------------+----------------+----------+
+|  101 | Madhavi Deshmane     | Satara    |   55 |       650000 | Manager        | NA       |
+|  102 | Neha Kshirsagar      | pune      |   40 |       554000 | Construction   | NA       |
+|  103 | Kajal Kshirsagar     | Delhi     |   45 |       652000 | Desinger       | NA       |
+|  104 | Pooja Kshirsagar     | pune      |   50 |       752000 | Teacher        | NA       |
+|  105 | Rutuja Kshirsagar    | Mumbai    |   46 |       402000 | Agent          | NA       |
+|  106 | Disha Kshirsagar     | Banglore  |   53 |       495000 | Company        | NA       |
+|  107 | Somnath Kshirsagar   | Banglore  |   62 |       695000 | BuisnessMan    | NA       |
+|  108 | Megha Kshirsagar     | Chennai   |   56 |       795000 | Farmer         | NA       |
+|  109 | Parvti Kshirsagar    | surat     |   41 |       395000 | Farmer         | NA       |
+|  110 | Raghunath Kshirsagar | satara    |   50 |       505000 | HR             | NA       |
+|  111 | Harish Desai         | jaipur    |   45 |       605000 | Soft Engineer  | NA       |
+|  112 | Prajwal ovhal        | Delhi     |   39 |       575000 | Soft Engineer  | NA       |
+|  113 | Kaushik Padwal       | Pune      |   49 |       475800 | Agent          | NA       |
+|  114 | Rupesh Sutar         | Banglore  |   42 |       495800 | Accountant     | NA       |
+|  115 | Suraj Gaikawad       | Ahemdabad |   38 |       695800 | Doctor         | NA       |
+|  116 | Mahesh Kate          | Indor     |   58 |       795600 | Civil Engineer | NA       |
+|  117 | Saurbh Jagtap        | Mumbai    |   44 |       495600 | Chef           | NA       |
+|  118 | Simaran Vishwakarma  | Patna     |   44 |       475600 | Worker         | NA       |
+|  119 | Daya Newale          | Kokan     |   41 |       575600 | HR             | NA       |
+|  120 | Pooja Rajput         | Kokan     |   41 |       575600 | Police         | NA       |
++------+----------------------+-----------+------+--------------+----------------+----------+
+20 rows in set (0.00 sec)
